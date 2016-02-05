@@ -6,17 +6,16 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: The Cracow Copywriter
+title: Cracow Copywriter
 email: cracowcopywriter@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Native English copywriter James Mathison moved from the UK to Cracow, 
-  Poland, in 2014. The city captured his heart and mind, and he quickly 
-  became a valued member of the local startup community. Thanks to a 
-  string of fascinating projects, James decided to invest himself full-time 
-  into helping small businesses and startups in Cracow build an 
+  Poland, in 2014. The city captured his heart and mind, especially when
+  he discovered the thriving local startup community. James is now fully 
+  dedicated to helping small businesses and startups in Cracow build an 
   international platform on a foundation of premium native-English copy.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://cracowcopywriter.com" # the base hostname & protocol for your site
 twitter_username: jsmathison
 github_username:
 
