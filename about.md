@@ -4,12 +4,7 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Native English copywriter James Mathison moved from the UK to Cracow, Poland, in 2014. The city captured his heart and mind, and he quickly became a valued member of the local startup community. 
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+Thanks to a string of fascinating projects, James decided to invest himself full-time into helping small businesses and startups in Cracow build an international platform on a foundation of premium native-English copy. 
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
