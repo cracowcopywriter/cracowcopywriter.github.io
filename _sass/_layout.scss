@@ -20,7 +20,7 @@
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
-
+    
     font-family: Iowan Old Style;
     letter-spacing: 2px;
     color: #fdf3e7; 
@@ -28,9 +28,11 @@
     &,
     &:visited {
         color: #fdf3e7;
-        /*$grey-color-dark;*/
+
     }
 }
+
+/*$grey-color-dark;*/
 
 .site-nav {
     float: right;
@@ -55,7 +57,7 @@
         position: absolute;
         top: 9px;
         right: $spacing-unit / 2;
-        background-color: $background-color;
+        background-color: #c63d0f;//$background-color;
         border: 1px solid $grey-color-light;
         border-radius: 5px;
         text-align: right;
@@ -173,6 +175,51 @@
 
 
 
+
+
+/**
+ * Home Page Content
+ */
+.home-heading {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.home-presubheading {
+    text-align: center;
+    
+}
+
+.home-subheading {
+    text-align: center;
+    font-style: italic;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.home picture {
+    max-width: 300px;
+    margin: 0px auto;
+    display: block;
+}
+
+.home article h2 {
+    font-family: "medium-content-sans-serif-font","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
+    margin-top: 30px;
+}
+
+.home article p {
+    font-size: 20px;
+}
+
+.home article ol {
+    line-height: 1.8;
+}
+
+
+
 /**
  * Page content
  */
@@ -203,6 +250,7 @@
 .post-link {
     display: block;
     font-size: 24px;
+    
     font-family: "medium-content-sans-serif-font","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
     font-weight: 700;
 }
@@ -212,30 +260,30 @@ h2 a{
 }
 
 h2 a:visited {
-    color:rgba(0,0,0,0.8);
+    color: rgba(0,0,0,0.8);
 }
 
 h2 a:hover {
     text-decoration: none;
 }
 
-
 /**
  * Posts
  */
 .post-header {
     margin-bottom: $spacing-unit;
+    
 }
 
 .post-title {
     font-size: 42px;
     letter-spacing: -1px;
     line-height: 1;
-    
+
     font-family: "medium-content-sans-serif-font","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
     font-weight: 700;
     color: rgba(0,0,0,0.8);
-
+    
     @include media-query($on-laptop) {
         font-size: 36px;
     }
